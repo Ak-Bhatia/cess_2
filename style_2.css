@@ -1,0 +1,43 @@
+.img
+{
+  width: 30%;
+}
+
+.heading
+{ 
+	font-family: 'Aclonica', sans-serif;
+}
+
+.row
+{
+	color:#E55F5F;
+}
+
+.back
+{
+	background: #F0F0F0;
+}
+
+.hov_cont
+{
+	background:#E55F5F;
+	color:white;
+}
+
+.bend
+{
+	-webkit-clip-path: polygon(0 0, 100% 0, 91.6% 100%, 8.4% 100%);
+	clip-path: polygon(0 0, 100% 0, 91.6% 100%, 8.4% 100%);
+	background:#E55F5F;
+	color: white;
+	font-family: 'Aclonica', sans-serif;
+}
+
+.bend_2
+{
+	background:#E55F5F;
+	color: white;
+	-webkit-clip-path: polygon(20% 0, 86% 0, 100% 100%, 0% 100%);
+	clip-path: polygon(20% 0, 86% 0, 100% 100%, 0% 100%);
+	font-family: 'Aclonica', sans-serif;
+}
