@@ -24,6 +24,11 @@
 	color:white;
 }
 
+span
+{
+	font-size: 1.7em;
+}
+
 .bend
 {
 	-webkit-clip-path: polygon(0 0, 100% 0, 91.6% 100%, 8.4% 100%);
@@ -42,17 +47,35 @@
 	font-family: 'Aclonica', sans-serif;
 }
 
-span
-{
-	font-size: 1.7em;
-}
-
-
 #heading_2
 {
 	color:#E55F5F;
 	font-family: 'Aclonica', sans-serif;
 	text-shadow: 2px 2px 1.4pc #F1B1B1;
+}
+
+p
+{
+
+}
+
+.img_ab
+{
+	height: 29em;
+}
+
+#map
+{
+	border-radius: 50%; 
+	box-shadow:1px 1px 10px black;
+	height: 3.7em;
+}
+
+.bot
+{
+	background: #E55F5F;
+	width: 20%;
+	height: .08em;
 }
 
 /*
@@ -71,5 +94,8 @@ span
   100% {
     transform: rotateY(0);
   }
-}
-*/
+}*/
+
+
+
+
