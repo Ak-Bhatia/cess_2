@@ -54,9 +54,10 @@ span
 	text-shadow: 2px 2px 1.4pc #F1B1B1;
 }
 
-p
-{
 
+#ph
+{
+	height: 1.9em;
 }
 
 .img_ab
@@ -70,6 +71,7 @@ p
 	box-shadow:1px 1px 10px black;
 	height: 3.7em;
 }
+
 
 .bot
 {
