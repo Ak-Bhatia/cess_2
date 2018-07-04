@@ -48,6 +48,14 @@ span
 }
 
 
+#heading_2
+{
+	color:#E55F5F;
+	font-family: 'Aclonica', sans-serif;
+	text-shadow: 2px 2px 1.4pc #F1B1B1;
+}
+
+/*
 .img_logo
 {
 	animation: coin-rotate 6555555s infinite;
@@ -64,3 +72,4 @@ span
     transform: rotateY(0);
   }
 }
+*/
