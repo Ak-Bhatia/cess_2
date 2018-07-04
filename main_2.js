@@ -10,6 +10,9 @@ var txt_3 = document.querySelector('#txt_3');
 var cont_4 = document.querySelector('#cont_4');
 var cont_4h = document.querySelector('#cont_4h');
 var txt_4 = document.querySelector('#txt_4');
+var map = document.querySelector('#map')
+var maps = document.querySelector('#maps')
+var map_ex = true;
 
 cont_1.addEventListener("mouseover",function(){
 	this.classList.add("hov_cont");
@@ -59,4 +62,18 @@ cont_4.addEventListener("mouseout",function(){
 	this.classList.remove("hov_cont");
 	cont_4h.classList.remove("col-lg-6","col-md-12","border","border-danger");
 	cont_4h.innerHTML = "";
+});
+
+map.addEventListener("click",function(){
+	if (map_ex){
+		maps.classList.add("img_ab");
+		map_ex = false;
+		map.setAttribute("src","images_2/SVG/circle-up.svg");
+	}
+	else
+	{
+		maps.classList.remove("img_ab");
+		map_ex = true;
+		map.setAttribute("src","images_2/SVG/circle-down.svg");	
+	}
 });
