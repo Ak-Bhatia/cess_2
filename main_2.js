@@ -13,6 +13,14 @@ var txt_4 = document.querySelector('#txt_4');
 var map = document.querySelector('#map')
 var maps = document.querySelector('#maps')
 var map_ex = true;
+var tw = document.querySelector('#tw');
+var lin = document.querySelector('#lin');
+var insta = document.querySelector('#insta');
+var yt = document.querySelector('#yt');
+var gm = document.querySelector('#gm');
+var fb = document.querySelector('#fb');
+var env = document.querySelector('#env');
+var whats = document.querySelector('#whats');
 
 cont_1.addEventListener("mouseover",function(){
 	this.classList.add("hov_cont");
@@ -68,12 +76,76 @@ map.addEventListener("click",function(){
 	if (map_ex){
 		maps.classList.add("img_ab");
 		map_ex = false;
-		map.setAttribute("src","images_2/SVG/circle-up.svg");
+		map.setAttribute("src","images_2/SVG-48-black/circle-up.svg");
 	}
 	else
 	{
 		maps.classList.remove("img_ab");
 		map_ex = true;
-		map.setAttribute("src","images_2/SVG/circle-down.svg");	
+		map.setAttribute("src","images_2/SVG-48-black/circle-down.svg");	
 	}
+});
+
+yt.addEventListener("mouseover",function(){
+	this.setAttribute("src","images_2/SVG-48-red/youtube.svg");
+});
+
+yt.addEventListener("mouseout",function(){
+	this.setAttribute("src","images_2/SVG-48-black/youtube.svg");
+});
+
+tw.addEventListener("mouseover",function(){
+	this.setAttribute("src","images_2/SVG-48-blue/twitter.svg");
+});
+
+tw.addEventListener("mouseout",function(){
+	this.setAttribute("src","images_2/SVG-48-black/twitter.svg");
+});
+
+insta.addEventListener("mouseover",function(){
+	this.setAttribute("src","images_2/SVG-48-brown/instagram.svg");
+});
+
+insta.addEventListener("mouseout",function(){
+	this.setAttribute("src","images_2/SVG-48-black/instagram.svg");
+});
+
+whats.addEventListener("mouseover",function(){
+	this.setAttribute("src","images_2/SVG-48-green/whatsapp.svg");
+});
+
+whats.addEventListener("mouseout",function(){
+	this.setAttribute("src","images_2/SVG-48-black/whatsapp.svg");
+});
+
+env.addEventListener("mouseover",function(){
+	this.setAttribute("src","images_2/SVG-48-envgreen/envelop.svg");
+});
+
+env.addEventListener("mouseout",function(){
+	this.setAttribute("src","images_2/SVG-48-black/envelop.svg");
+});
+
+fb.addEventListener("mouseover",function(){
+	this.setAttribute("src","images_2/SVG-48-darkblue/facebook2.svg");
+});
+
+fb.addEventListener("mouseout",function(){
+	this.setAttribute("src","images_2/SVG-48-black/facebook2.svg");
+});
+
+gm.addEventListener("mouseover",function(){
+	this.setAttribute("src","images_2/SVG-48-gred/google-plus2.svg");
+});
+
+gm.addEventListener("mouseout",function(){
+	this.setAttribute("src","images_2/SVG-48-black/google-plus2.svg");
+});
+
+lin.addEventListener("mouseover",function(){
+	this.setAttribute("src","images_2/SVG-48-lkblue/linkedin.svg");
+});
+
+lin.addEventListener("mouseout",function(){
+	this.setAttribute("src","images_2/SVG-48-black/linkedin.svg");
 });
