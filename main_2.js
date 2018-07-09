@@ -76,76 +76,76 @@ map.addEventListener("click",function(){
 	if (map_ex){
 		maps.classList.add("img_ab");
 		map_ex = false;
-		map.setAttribute("src","images_2/SVG-48-black/circle-up.svg");
+		map.setAttribute("src","images_2/SVG/circle-up.svg");
 	}
 	else
 	{
 		maps.classList.remove("img_ab");
 		map_ex = true;
-		map.setAttribute("src","images_2/SVG-48-black/circle-down.svg");	
+		map.setAttribute("src","images_2/SVG/circle-down.svg");	
 	}
 });
 
 yt.addEventListener("mouseover",function(){
-	this.setAttribute("src","images_2/SVG-48-red/youtube.svg");
+	this.setAttribute("src","images_2/SVG-h/youtube.svg");
 });
 
 yt.addEventListener("mouseout",function(){
-	this.setAttribute("src","images_2/SVG-48-black/youtube.svg");
+	this.setAttribute("src","images_2/SVG/youtube.svg");
 });
 
 tw.addEventListener("mouseover",function(){
-	this.setAttribute("src","images_2/SVG-48-blue/twitter.svg");
+	this.setAttribute("src","images_2/SVG-h/twitter.svg");
 });
 
 tw.addEventListener("mouseout",function(){
-	this.setAttribute("src","images_2/SVG-48-black/twitter.svg");
+	this.setAttribute("src","images_2/SVG/twitter.svg");
 });
 
 insta.addEventListener("mouseover",function(){
-	this.setAttribute("src","images_2/SVG-48-brown/instagram.svg");
+	this.setAttribute("src","images_2/SVG-h/instagram.svg");
 });
 
 insta.addEventListener("mouseout",function(){
-	this.setAttribute("src","images_2/SVG-48-black/instagram.svg");
+	this.setAttribute("src","images_2/SVG/instagram.svg");
 });
 
 whats.addEventListener("mouseover",function(){
-	this.setAttribute("src","images_2/SVG-48-green/whatsapp.svg");
+	this.setAttribute("src","images_2/SVG-h/whatsapp.svg");
 });
 
 whats.addEventListener("mouseout",function(){
-	this.setAttribute("src","images_2/SVG-48-black/whatsapp.svg");
+	this.setAttribute("src","images_2/SVG/whatsapp.svg");
 });
 
 env.addEventListener("mouseover",function(){
-	this.setAttribute("src","images_2/SVG-48-envgreen/envelop.svg");
+	this.setAttribute("src","images_2/SVG-h/envelop.svg");
 });
 
 env.addEventListener("mouseout",function(){
-	this.setAttribute("src","images_2/SVG-48-black/envelop.svg");
+	this.setAttribute("src","images_2/SVG/envelop.svg");
 });
 
 fb.addEventListener("mouseover",function(){
-	this.setAttribute("src","images_2/SVG-48-darkblue/facebook2.svg");
+	this.setAttribute("src","images_2/SVG-h/facebook2.svg");
 });
 
 fb.addEventListener("mouseout",function(){
-	this.setAttribute("src","images_2/SVG-48-black/facebook2.svg");
+	this.setAttribute("src","images_2/SVG/facebook2.svg");
 });
 
 gm.addEventListener("mouseover",function(){
-	this.setAttribute("src","images_2/SVG-48-gred/google-plus2.svg");
+	this.setAttribute("src","images_2/SVG-h/google-plus2.svg");
 });
 
 gm.addEventListener("mouseout",function(){
-	this.setAttribute("src","images_2/SVG-48-black/google-plus2.svg");
+	this.setAttribute("src","images_2/SVG/google-plus2.svg");
 });
 
 lin.addEventListener("mouseover",function(){
-	this.setAttribute("src","images_2/SVG-48-lkblue/linkedin.svg");
+	this.setAttribute("src","images_2/SVG-h/linkedin.svg");
 });
 
 lin.addEventListener("mouseout",function(){
-	this.setAttribute("src","images_2/SVG-48-black/linkedin.svg");
+	this.setAttribute("src","images_2/SVG/linkedin.svg");
 });
